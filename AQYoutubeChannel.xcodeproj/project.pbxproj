@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B5EA1FE3709CC09FF05B3E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 743958A3710A2FFFAB4CA3B6 /* libPods.a */; };
 		3E25429D1A0E5428005096B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25429C1A0E5428005096B8 /* main.m */; };
 		3E2542A01A0E5428005096B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25429F1A0E5428005096B8 /* AppDelegate.m */; };
-		3E2542A31A0E5428005096B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542A21A0E5428005096B8 /* ViewController.m */; };
-		3E2542A61A0E5428005096B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2542A41A0E5428005096B8 /* Main.storyboard */; };
 		3E2542A81A0E5428005096B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2542A71A0E5428005096B8 /* Images.xcassets */; };
 		3E2542AB1A0E5428005096B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2542A91A0E5428005096B8 /* LaunchScreen.xib */; };
 		3E2542B71A0E5428005096B8 /* AQYoutubeChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542B61A0E5428005096B8 /* AQYoutubeChannelTests.m */; };
+		3E2542C51A0E548C005096B8 /* YoutubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542C41A0E548C005096B8 /* YoutubeVideo.m */; };
+		3E2542C91A0E54B8005096B8 /* ParseJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542C81A0E54B8005096B8 /* ParseJSON.m */; };
+		3E2542CE1A0E55F7005096B8 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542CB1A0E55F7005096B8 /* VideoCell.m */; };
+		3E2542CF1A0E55F7005096B8 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542CD1A0E55F7005096B8 /* ContainerView.m */; };
+		3E2542DA1A0E563C005096B8 /* ShowsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542D31A0E563C005096B8 /* ShowsTableViewController.m */; };
+		3E2542DB1A0E563C005096B8 /* DetailShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542D51A0E563C005096B8 /* DetailShowViewController.m */; };
+		3E2542DC1A0E563C005096B8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542D71A0E563C005096B8 /* SettingsViewController.m */; };
+		3E2542DD1A0E563C005096B8 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542D91A0E563C005096B8 /* ContainerViewController.m */; };
+		3E2542E41A0E6043005096B8 /* CustomAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542E31A0E6043005096B8 /* CustomAlertViewController.m */; };
+		3E2542E61A0E69C4005096B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2542E51A0E69C4005096B8 /* Main.storyboard */; };
+		3E2542E91A0E6C22005096B8 /* ModalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2542E81A0E6C22005096B8 /* ModalAnimator.m */; };
+		3E2542EC1A0E7AEA005096B8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2542EB1A0E7AEA005096B8 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +38,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		138888BDF126620D6DAE82FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3E2542971A0E5428005096B8 /* AQYoutubeChannel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQYoutubeChannel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E25429B1A0E5428005096B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E25429C1A0E5428005096B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E25429E1A0E5428005096B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E25429F1A0E5428005096B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E2542A11A0E5428005096B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E2542A21A0E5428005096B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3E2542A51A0E5428005096B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E2542A71A0E5428005096B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E2542AA1A0E5428005096B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E2542B01A0E5428005096B8 /* AQYoutubeChannelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQYoutubeChannelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2542B51A0E5428005096B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2542B61A0E5428005096B8 /* AQYoutubeChannelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQYoutubeChannelTests.m; sourceTree = "<group>"; };
+		3E2542C31A0E548C005096B8 /* YoutubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeVideo.h; sourceTree = "<group>"; };
+		3E2542C41A0E548C005096B8 /* YoutubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeVideo.m; sourceTree = "<group>"; };
+		3E2542C71A0E54B8005096B8 /* ParseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseJSON.h; sourceTree = "<group>"; };
+		3E2542C81A0E54B8005096B8 /* ParseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseJSON.m; sourceTree = "<group>"; };
+		3E2542CA1A0E55F7005096B8 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		3E2542CB1A0E55F7005096B8 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		3E2542CC1A0E55F7005096B8 /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		3E2542CD1A0E55F7005096B8 /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		3E2542D21A0E563C005096B8 /* ShowsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsTableViewController.h; sourceTree = "<group>"; };
+		3E2542D31A0E563C005096B8 /* ShowsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsTableViewController.m; sourceTree = "<group>"; };
+		3E2542D41A0E563C005096B8 /* DetailShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailShowViewController.h; sourceTree = "<group>"; };
+		3E2542D51A0E563C005096B8 /* DetailShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailShowViewController.m; sourceTree = "<group>"; };
+		3E2542D61A0E563C005096B8 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3E2542D71A0E563C005096B8 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3E2542D81A0E563C005096B8 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		3E2542D91A0E563C005096B8 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		3E2542E21A0E6043005096B8 /* CustomAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertViewController.h; sourceTree = "<group>"; };
+		3E2542E31A0E6043005096B8 /* CustomAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewController.m; sourceTree = "<group>"; };
+		3E2542E51A0E69C4005096B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3E2542E71A0E6C22005096B8 /* ModalAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalAnimator.h; sourceTree = "<group>"; };
+		3E2542E81A0E6C22005096B8 /* ModalAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalAnimator.m; sourceTree = "<group>"; };
+		3E2542EB1A0E7AEA005096B8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		743958A3710A2FFFAB4CA3B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA18C45F62251333F7A4BE77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2542EC1A0E7AEA005096B8 /* JavaScriptCore.framework in Frameworks */,
+				10B5EA1FE3709CC09FF05B3E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +101,8 @@
 				3E2542991A0E5428005096B8 /* AQYoutubeChannel */,
 				3E2542B31A0E5428005096B8 /* AQYoutubeChannelTests */,
 				3E2542981A0E5428005096B8 /* Products */,
+				CA09CB615E1541CC44905013 /* Pods */,
+				F83426D496DA6E4FECDC661C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +120,10 @@
 			children = (
 				3E25429E1A0E5428005096B8 /* AppDelegate.h */,
 				3E25429F1A0E5428005096B8 /* AppDelegate.m */,
-				3E2542A11A0E5428005096B8 /* ViewController.h */,
-				3E2542A21A0E5428005096B8 /* ViewController.m */,
-				3E2542A41A0E5428005096B8 /* Main.storyboard */,
+				3E2542C21A0E5456005096B8 /* Model */,
+				3E2542C11A0E544F005096B8 /* View */,
+				3E2542C01A0E5441005096B8 /* Controller */,
 				3E2542A71A0E5428005096B8 /* Images.xcassets */,
-				3E2542A91A0E5428005096B8 /* LaunchScreen.xib */,
 				3E25429A1A0E5428005096B8 /* Supporting Files */,
 			);
 			path = AQYoutubeChannel;
@@ -119,6 +155,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3E2542C01A0E5441005096B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542EA1A0E6C9E005096B8 /* Detail */,
+				3E2542DE1A0E5FCA005096B8 /* Transition */,
+				3E2542C61A0E54AE005096B8 /* Services */,
+				3E2542D21A0E563C005096B8 /* ShowsTableViewController.h */,
+				3E2542D31A0E563C005096B8 /* ShowsTableViewController.m */,
+				3E2542D61A0E563C005096B8 /* SettingsViewController.h */,
+				3E2542D71A0E563C005096B8 /* SettingsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3E2542C11A0E544F005096B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542E51A0E69C4005096B8 /* Main.storyboard */,
+				3E2542A91A0E5428005096B8 /* LaunchScreen.xib */,
+				3E2542CA1A0E55F7005096B8 /* VideoCell.h */,
+				3E2542CB1A0E55F7005096B8 /* VideoCell.m */,
+				3E2542CC1A0E55F7005096B8 /* ContainerView.h */,
+				3E2542CD1A0E55F7005096B8 /* ContainerView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3E2542C21A0E5456005096B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542C31A0E548C005096B8 /* YoutubeVideo.h */,
+				3E2542C41A0E548C005096B8 /* YoutubeVideo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3E2542C61A0E54AE005096B8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542C71A0E54B8005096B8 /* ParseJSON.h */,
+				3E2542C81A0E54B8005096B8 /* ParseJSON.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3E2542DE1A0E5FCA005096B8 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542E21A0E6043005096B8 /* CustomAlertViewController.h */,
+				3E2542E31A0E6043005096B8 /* CustomAlertViewController.m */,
+				3E2542E71A0E6C22005096B8 /* ModalAnimator.h */,
+				3E2542E81A0E6C22005096B8 /* ModalAnimator.m */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
+		3E2542EA1A0E6C9E005096B8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542D41A0E563C005096B8 /* DetailShowViewController.h */,
+				3E2542D51A0E563C005096B8 /* DetailShowViewController.m */,
+				3E2542D81A0E563C005096B8 /* ContainerViewController.h */,
+				3E2542D91A0E563C005096B8 /* ContainerViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		CA09CB615E1541CC44905013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA18C45F62251333F7A4BE77 /* Pods.debug.xcconfig */,
+				138888BDF126620D6DAE82FC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F83426D496DA6E4FECDC661C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E2542EB1A0E7AEA005096B8 /* JavaScriptCore.framework */,
+				743958A3710A2FFFAB4CA3B6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E2542BA1A0E5428005096B8 /* Build configuration list for PBXNativeTarget "AQYoutubeChannel" */;
 			buildPhases = (
+				FFD46FA8E6B6E04E9D49D885 /* Check Pods Manifest.lock */,
 				3E2542931A0E5428005096B8 /* Sources */,
 				3E2542941A0E5428005096B8 /* Frameworks */,
 				3E2542951A0E5428005096B8 /* Resources */,
+				F8D05636880BA5F890E943F3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2542A61A0E5428005096B8 /* Main.storyboard in Resources */,
+				3E2542E61A0E69C4005096B8 /* Main.storyboard in Resources */,
 				3E2542AB1A0E5428005096B8 /* LaunchScreen.xib in Resources */,
 				3E2542A81A0E5428005096B8 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +337,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F8D05636880BA5F890E943F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD46FA8E6B6E04E9D49D885 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E2542931A0E5428005096B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2542A31A0E5428005096B8 /* ViewController.m in Sources */,
+				3E2542E41A0E6043005096B8 /* CustomAlertViewController.m in Sources */,
+				3E2542DA1A0E563C005096B8 /* ShowsTableViewController.m in Sources */,
+				3E2542DB1A0E563C005096B8 /* DetailShowViewController.m in Sources */,
+				3E2542C51A0E548C005096B8 /* YoutubeVideo.m in Sources */,
+				3E2542CF1A0E55F7005096B8 /* ContainerView.m in Sources */,
+				3E2542CE1A0E55F7005096B8 /* VideoCell.m in Sources */,
 				3E2542A01A0E5428005096B8 /* AppDelegate.m in Sources */,
+				3E2542DD1A0E563C005096B8 /* ContainerViewController.m in Sources */,
+				3E2542DC1A0E563C005096B8 /* SettingsViewController.m in Sources */,
 				3E25429D1A0E5428005096B8 /* main.m in Sources */,
+				3E2542E91A0E6C22005096B8 /* ModalAnimator.m in Sources */,
+				3E2542C91A0E54B8005096B8 /* ParseJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E2542A41A0E5428005096B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E2542A51A0E5428005096B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3E2542A91A0E5428005096B8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +498,7 @@
 		};
 		3E2542BB1A0E5428005096B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA18C45F62251333F7A4BE77 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AQYoutubeChannel/Info.plist;
@@ -351,6 +509,7 @@
 		};
 		3E2542BC1A0E5428005096B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138888BDF126620D6DAE82FC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AQYoutubeChannel/Info.plist;
@@ -412,6 +571,7 @@
 				3E2542BC1A0E5428005096B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E2542BD1A0E5428005096B8 /* Build configuration list for PBXNativeTarget "AQYoutubeChannelTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +580,7 @@
 				3E2542BF1A0E5428005096B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
